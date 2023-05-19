@@ -1,0 +1,5 @@
+spring:
+  datasource:
+    url: ${POSTGRESQL_URI:jdbc:postgresql://localhost:5432/photo_generation?currentSchema=public}
+    username: ${POSTGRESQL_USER:postgres}
+    password: ${POSTGRESQL_PASSWORD:abc13579}
